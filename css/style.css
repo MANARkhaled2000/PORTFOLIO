@@ -1,0 +1,42 @@
+.item{
+     position: relative;
+}
+.item-layer{
+     position: absolute;
+background-color: white;
+     width: 150px;
+     height: 70px;
+     display: none;
+     transition: all 1s;
+}
+
+
+
+.item:hover .item-layer{
+     display: block;
+}
+
+.item img{
+     transition: all 1s;
+}
+.item:hover img{
+     transform: scale(1.1);
+}
+
+/* body{
+     cursor: url(../images/dark.png),auto;
+ 
+} */
+
+.nav-item .active{
+     color: crimson !important;
+}
+h1{
+     font-size: 30px;
+     font-weight: 800;
+}
+ul{
+     font-family: poppins;
+     font-weight: 500;
+     font-size: 20px;
+}
